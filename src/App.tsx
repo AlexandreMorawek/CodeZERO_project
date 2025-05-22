@@ -1,7 +1,8 @@
 import "./App.css";
+import Carte from "./components/Carte";
 
 function App() {
-	return <h1>App</h1>;
+	return <Carte />;
 }
 
 export default App;
