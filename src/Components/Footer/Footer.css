@@ -1,3 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .footer {
-  border: 1px solid blue
+  height: 50px;
+  color: white;
+  background-color: var(--color-secondary);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  p {
+    padding-left: 1rem;
+  }
+
+  figure {
+    display: flex;
+    text-align: center;
+    padding-right: 1rem;
+  }
+
+  img {
+    height: 25px;
+    padding-left: 1rem;
+  }
 }
