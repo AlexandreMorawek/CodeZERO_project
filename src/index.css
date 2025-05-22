@@ -8,3 +8,7 @@
   --color-primary: #2c2d4b;
   --color-secondary: #0b0821;
 }
+
+body {
+  background-color: var(--primary-color);
+}
