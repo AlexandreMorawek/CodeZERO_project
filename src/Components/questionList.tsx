@@ -34,10 +34,8 @@ function QuestionList () {
                     answer3={data[currentQuestion].answer3}
                     answer4={data[currentQuestion].answer4}
                     explanation={data[currentQuestion].explanation}
+                    onNext={handleNextQuestion}
                     />
-                <div className="button2">
-                    <button type="button" className="next_question" onClick={handleNextQuestion}>Question suivante</button>
-                </div>
             </div>
             )}
         </>
