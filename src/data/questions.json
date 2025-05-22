@@ -1,0 +1,102 @@
+[
+	{
+		"id": 1,
+		"question": "Quel langage est utilisé pour structurer une page web ?",
+		"answer1": "CSS",
+		"answer2": "HTML",
+		"answer3": "JavaScript",
+		"answer4": "PHP",
+		"correct_answer": "HTML",
+		"explanation": "HTML signifie « HyperText Markup Language » qu'on peut traduire par « langage de balises pour l'hypertexte ». Il est utilisé afin de créer et de représenter le contenu d'une page web et sa structure."
+	},
+	{
+		"id": 2,
+		"question": "A quoi sert le CSS ?",
+		"answer1": "A créer des bases de données",
+		"answer2": "A ajouter des fonctionnalités dynamiques",
+		"answer3": "A styliser une page web",
+		"answer4": "A héberger un site web",
+		"correct_answer": "A styliser une page web",
+		"explanation": "CSS est l'acronyme de « Cascading Style Sheets » ce qui signifie « feuille de style en cascade ». Le CSS correspond à un langage informatique permettant de mettre en forme des pages web (HTML ou XML). Ce langage est donc composé des fameuses « feuilles de style en cascade » également appelées fichiers CSS."
+	},
+	{
+		"id": 3,
+		"question": "Quel balise HTML permet d'ajouter un lien cliquable ?",
+		"answer1": "<img>",
+		"answer2": "<div>",
+		"answer3": "<a>",
+		"answer4": "<link>",
+		"correct_answer": "<a>",
+		"explanation": "L'élément HTML <a>, avec son attribut href , crée un lien hypertexte vers des pages web, des fichiers, des adresses e-mail, des emplacements se trouvant dans la même page, ou tout ce qu'une URL peut adresser."
+	},
+	{
+		"id": 4,
+		"question": "Qu'est ce que le JavaScript dans le développement web ?",
+		"answer1": "Un langage de mise en forme",
+		"answer2": "Un outil de design",
+		"answer3": "Un langage de programmation permettant d'ajouter de l'interactivité",
+		"answer4": "Une base de données",
+		"correct_answer": "Un langage de programmation permettant d'ajouter de l'interactivité",
+		"explanation": "JavaScript est un langage de programmation utilisé par les développeurs pour concevoir des sites web interactifs. Les fonctions JavaScript peuvent permettre d'améliorer l'expérience utilisateur d'un site web."
+	},
+	{
+		"id": 5,
+		"question": "Quel est l'extension d'un fichier HTML ?",
+		"answer1": ".css",
+		"answer2": ".html",
+		"answer3": ".js",
+		"answer4": ".php",
+		"correct_answer": ".html",
+		"explanation": "Un fichier HTML peut être créé à partir d'un simple éditeur de texte, comme Notepad ou TextEdit, ou bien à l'aide d'un logiciel de développement web spécialisé, tel que Adobe Dreamweaver. Ce type de fichier possède toujours une extension .html"
+	},
+	{
+		"id": 6,
+		"question": "Quel est le rôle du fichier index.html ?",
+		"answer1": "Il configure un serveur",
+		"answer2": "Il contient le style du site",
+		"answer3": "C'est la page d'accueil d'un site",
+		"answer4": "Il stocke les données des utilisateurs",
+		"correct_answer": "C'est la page d'accueil d'un site",
+		"explanation": "L'objectif principal du fichier index. html est de définir la structure et la mise en page de la page Web en utilisant HTML."
+	},
+	{
+		"id": 7,
+		"question": "Comment voir le code source d'une page web dans un navigateur ?",
+		"answer1": "A partir du gestionnaire de taches",
+		"answer2": "Avec un IDE",
+		"answer3": "Faire un clique droit et cliquer sur inspecter",
+		"answer4": "A partir de l'explorateur de fichiers",
+		"correct_answer": "Faire un clique droit et cliquer sur inspecter",
+		"explanation": "Dans une page HTML, faites un clic droit dessus et cliquez sur inspecter. Un nouvel onglet contenant le code source HTML de la page s'ouvrira."
+	},
+	{
+		"id": 8,
+		"question": "Quelle propriété CSS change la couleur du texte ?",
+		"answer1": "Background-color",
+		"answer2": "Text-align",
+		"answer3": "Font-size",
+		"answer4": "Color",
+		"correct_answer": "Color",
+		"explanation": "La propriété color définit la couleur de premier plan d'un élément texte et de ses éventuelles décorations. Elle définit également la valeur de currentColor qui peut être utilisée pour d'autres propriétés."
+	},
+	{
+		"id": 9,
+		"question": "Quel langage de programmation est éxecuté côté client dans le navigateur ?",
+		"answer1": "PHP",
+		"answer2": "HTML",
+		"answer3": "JavaScript",
+		"answer4": "CSS",
+		"correct_answer": "JavaScript",
+		"explanation": "JavaScript est un langage client : il est lu par votre ordinateur, l'ordinateur d'un visiteur. Il décrit l'apparence du site web. Les autres langage ne sont pas des langages de programmation"
+	},
+	{
+		"id": 10,
+		"question": "A quoi sert une balise <form> en HTML ?",
+		"answer1": "A afficher une image",
+		"answer2": "A styliser du texte",
+		"answer3": "A créer une animation",
+		"answer4": "A envoyer des données à un serveur",
+		"correct_answer": "A envoyer des données à un serveur",
+		"explanation": "L'élément HTML <form> représente un formulaire, c'est-à-dire une section d'un document qui contient des contrôles interactifs permettant à un utilisateur de fournir des informations."
+	}
+]
