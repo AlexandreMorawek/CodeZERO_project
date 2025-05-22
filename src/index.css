@@ -12,3 +12,7 @@
 body {
   background-color: var(--primary-color);
 }
+
+.h-screen {
+  height: 74.4vh;
+}

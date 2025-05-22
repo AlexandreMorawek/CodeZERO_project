@@ -9,4 +9,14 @@
     text-align: center;
     width: 50%;
     margin: 3rem auto 2rem auto;
+
+    h1 {
+        padding: 1rem 1rem 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .description_container {
+        width: 80%;
+    }
 }
