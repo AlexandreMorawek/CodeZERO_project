@@ -6,6 +6,7 @@ function QuestionList () {
 
     const [startQuiz, setStartQuiz] = useState(false)
     const [currentQuestion, setCurrentQuestion] = useState(0)
+    
 
     const handleNextQuestion = () => {
         if (currentQuestion < data.length - 1) {
@@ -33,6 +34,7 @@ function QuestionList () {
                     answer2={data[currentQuestion].answer2}
                     answer3={data[currentQuestion].answer3}
                     answer4={data[currentQuestion].answer4}
+                    correct_answer={data[currentQuestion].correct_answer}
                     explanation={data[currentQuestion].explanation}
                     onNext={handleNextQuestion}
                     />
