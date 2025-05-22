@@ -41,12 +41,12 @@ function Carte({ question, answer1, answer2, answer3, answer4, correct_answer, e
 					<h2 className="bg-secondary text-white py-4 px-3 text-center rounded-tr-lg rounded-tl-lg">
 						{question}
 					</h2>
-					<section className="bg-white  shadow-2xl flex-col rounded-br-lg rounded-bl-lg">
+					<section className="bg-white shadow-2xl flex-col rounded-br-lg rounded-bl-lg">
 						<div className=" text-secondary py-4 text-center md:grid md:grid-cols-2">
-							<p className="py-3 md:my-5 cursor-pointer" onClick={() => handleSelect(answer1)}>1. {answer1}</p>
-							<p className="py-3 md:my-5 cursor-pointer" onClick={() => handleSelect(answer2)}>2. {answer2}</p>
-							<p className="py-3 md:my-5 cursor-pointer" onClick={() => handleSelect(answer3)}>3. {answer3}</p>
-							<p className="py-3 md:my-5 cursor-pointer" onClick={() => handleSelect(answer4)}>4. {answer4}</p>
+							<p className="py-5 mx-7 md:my-3 font-semibold cursor-pointer flex justify-center items-center" onClick={() => handleSelect(answer1)}>{answer1}</p>
+							<p className="py-5 mx-7 md:my-3 font-semibold cursor-pointer flex justify-center items-center" onClick={() => handleSelect(answer2)}>{answer2}</p>
+							<p className="py-5 mx-7 md:my-3 font-semibold cursor-pointer flex justify-center items-center" onClick={() => handleSelect(answer3)}>{answer3}</p>
+							<p className="py-5 mx-7 md:my-3 font-semibold cursor-pointer flex justify-center items-center" onClick={() => handleSelect(answer4)}>{answer4}</p>
 						</div>
 						<div className="flex justify-center">
 							<button
