@@ -1,10 +1,13 @@
 import "./HomePage.css";
+import QuestionList from "../../Components/questionList";
+import Description from "../../Components/Description/description";
 
 function HomePage() {
 	return (
-		<footer className="footer">
-			<h1>Ici la page d'acceuil</h1>
-		</footer>
+		<>
+		<Description />
+		<QuestionList />
+		</>
 	);
 }
 
