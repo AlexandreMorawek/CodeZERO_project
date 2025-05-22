@@ -1,6 +1,6 @@
 function Carte() {
 	return (
-		<section className="bg-primary h-screen">
+		<section className="">
 		<div className="w-[80%] mx-auto pt-5">
 			<h2 className="bg-secondary text-white py-4 px-3 text-center rounded-tr-lg rounded-tl-lg">
 				1. Quel langage est utilisé pour structurer une page web ?
