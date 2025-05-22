@@ -1,0 +1,12 @@
+.description_container {
+    border: solid 2px white;
+    border-radius: 5px;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    background-color: white;
+    padding: 2rem 0 2rem 0;
+    text-align: center;
+    width: 50%;
+    margin: 3rem auto 2rem auto;
+}
