@@ -3,7 +3,11 @@ import "./Header.css";
 function Header() {
 	return (
 		<header className="header">
-			<h1>Ici le haut de page</h1>
+			<img
+				className="logo"
+				src="./src/assets/images/CodeZeroLogo.png"
+				alt="logo du site"
+			/>
 		</header>
 	);
 }
