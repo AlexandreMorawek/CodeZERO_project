@@ -10,6 +10,7 @@ type questionType = {
 	correct_answer: string;
 	explanation: string;
 	onNext: () => void;
+	imageUrl: string; // images type ici
 };
 
 function Carte({
@@ -21,6 +22,7 @@ function Carte({
 	correct_answer,
 	explanation,
 	onNext,
+	imageUrl, // images dans la fonction
 }: questionType) {
 	const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
 	const [validatedAnswer, setValidatedAnswer] = useState(false);
@@ -87,11 +89,16 @@ function Carte({
 						</div>
 					</section>
 					{validatedAnswer && (
-						<div>
-							<p className="text-white">
+						<div className="text-center my-4">
+							<p className="text-white font-bold text-xl">
 								{isCorrect ? "Bonne réponse" : "Mauvaise réponse."}
 							</p>
-							<p className="text-white">{explanation}</p>
+							<p className="text-white mb-4">{explanation}</p>
+							<img
+								src={imageUrl}
+								alt="Animation"
+								className="w-32 h-32 mx-auto object-contain"
+							/>
 						</div>
 					)}
 				</div>
