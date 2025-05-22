@@ -2,52 +2,52 @@
 	"loading": [
 		{
 			"id": 1,
-			"image": "",
+			"image": "https://cdn-icons-gif.flaticon.com/8722/8722703.gif",
 			"name": "html"
 		},
 		{
 			"id": 2,
-			"image": "",
+			"image": "https://cdn-icons-gif.flaticon.com/17122/17122617.gif",
 			"name": "css"
 		},
 		{
 			"id": 3,
-			"image": "",
+			"image": "https://riuversity.home.blog/wp-content/uploads/2019/06/html.gif",
 			"name": "balise html"
 		},
 		{
 			"id": 4,
-			"image": "",
+			"image": "https://media.tenor.com/TReUojNlZ6wAAAAj/js-javascript.gif",
 			"name": "javascript"
 		},
 		{
 			"id": 5,
-			"image": "",
+			"image": "https://cdn-icons-gif.flaticon.com/10826/10826764.gif",
 			"name": "extension html"
 		},
 		{
 			"id": 6,
-			"image": "",
+			"image": "https://i.gifer.com/5xDL.gif",
 			"name": "rôle du fichier index.html"
 		},
 		{
 			"id": 7,
-			"image": "",
+			"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoVPR9wDWYGmDW4RySXGgz7KhE9iIQDpSNDg&s",
 			"name": "code source d'une page web"
 		},
 		{
 			"id": 8,
-			"image": "",
+			"image": "https://i.gifer.com/g0R9.gif",
 			"name": "changer la couleur du texte"
 		},
 		{
 			"id": 9,
-			"image": "",
+			"image": "https://i.gifer.com/S3Vx.gif",
 			"name": "language de programmation côté client"
 		},
 		{
 			"id": 10,
-			"image": "",
+			"image": "https://i.gifer.com/M6L1.gif",
 			"name": "la balise <form>"
 		}
 	]
