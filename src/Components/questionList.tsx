@@ -21,8 +21,8 @@ function QuestionList () {
     return (
         <>
             {!startQuiz && (
-                <div className="button1">
-                    <button type="button" className="quiz_button" onClick={() => setStartQuiz(true)}>Commencer le quiz !</button>
+                <div className="button1 flex justify-center items-center h-[39vh]">
+                    <button type="button" className="quiz_button bg-orange-700 text-white px-7 py-2 rounded-full cursor-pointer" onClick={() => setStartQuiz(true)}>Commencer le quiz !</button>
                 </div>
             )}
             {startQuiz && (

@@ -36,8 +36,8 @@ function Carte({ question, answer1, answer2, answer3, answer4, correct_answer, e
 	console.log(correct_answer)
 	return (
 		<>
-			<section className="h-screen">
-				<div className="w-[80%] mx-auto pt-5">
+			<section className="h-[80vh]">
+				<div className="w-[80%] md:w-[60%] mx-auto pt-5">
 					<h2 className="bg-secondary text-white py-4 px-3 text-center rounded-tr-lg rounded-tl-lg">
 						{question}
 					</h2>
