@@ -1,0 +1,44 @@
+{
+	"loading": [
+		{
+			"id": 1,
+			"image": "https://cdn-icons-gif.flaticon.com/8722/8722703.gif"
+		},
+		{
+			"id": 2,
+			"image": "https://cdn-icons-gif.flaticon.com/17122/17122617.gif"
+		},
+		{
+			"id": 3,
+			"image": "https://riuversity.home.blog/wp-content/uploads/2019/06/html.gif"
+		},
+		{
+			"id": 4,
+			"image": "https://media.tenor.com/TReUojNlZ6wAAAAj/js-javascript.gif"
+		},
+		{
+			"id": 5,
+			"image": "https://cdn-icons-gif.flaticon.com/10826/10826764.gif"
+		},
+		{
+			"id": 6,
+			"image": "https://i.gifer.com/5xDL.gif"
+		},
+		{
+			"id": 7,
+			"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoVPR9wDWYGmDW4RySXGgz7KhE9iIQDpSNDg&s"
+		},
+		{
+			"id": 8,
+			"image": "https://i.gifer.com/g0R9.gif"
+		},
+		{
+			"id": 9,
+			"image": "https://i.gifer.com/S3Vx.gif"
+		},
+		{
+			"id": 10,
+			"image": "https://i.gifer.com/M6L1.gif"
+		}
+	]
+}
