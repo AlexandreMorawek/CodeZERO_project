@@ -80,11 +80,19 @@ function Carte({
 						</div>
 					</section>
 					{validatedAnswer && (
-						<div className="text-center my-4">
+						<div className="text-center my-6">
 							<p className="text-white font-bold text-xl">
-								{isCorrect ? "Bonne réponse" : "Mauvaise réponse."}
+								{isCorrect ? (
+									<>
+										Bonne réponse <i className="bi bi-check-circle-fill text-green-600" />
+									</>
+								) : (
+									<>
+									Mauvaise réponse <i className="bi bi-x-circle-fill text-red-600" />
+									</>
+								)}
 							</p>
-							<p className="text-white mb-4">{explanation}</p>
+							<p className="text-white mb-4 mt-3">{explanation}</p>
 							<img
 								src={imageUrl}
 								alt="Animation"
