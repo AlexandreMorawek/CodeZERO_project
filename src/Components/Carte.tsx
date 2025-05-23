@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { motion } from "framer-motion";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
 type questionType = {
@@ -46,7 +47,13 @@ function Carte({
 	console.log(correct_answer);
 	return (
 		<>
-			<section className="h-[100%] pb-[2rem]">
+			<motion.section
+				className="h-[screen] pb-[2rem]"
+				initial={{ opacity: 0, x: 100 }}
+				animate={{ opacity: 1, x: 0 }}
+				exit={{ opacity: 0, x: -100 }}
+				transition={{ duration: 0.5 }}
+			>
 				<div className="w-[80%] md:w-[60%] mx-auto pt-5">
 					<h2 className="bg-secondary text-white py-4 px-3 text-center rounded-tr-lg rounded-tl-lg">
 						{question}
@@ -96,7 +103,7 @@ function Carte({
 						<i className="bi bi-arrow-right-circle-fill text-2xl cursor-pointer" />
 					</button>
 				</div>
-			</section>
+			</motion.section>
 		</>
 	);
 }
