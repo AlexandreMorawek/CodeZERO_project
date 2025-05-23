@@ -20,13 +20,25 @@ function QuestionList() {
 	return (
 		<>
 			{!startQuiz && (
-				<div className="button1 flex justify-center items-center h-[39vh]">
+				<div className="button1 h-[39vh] flex flex-col items-center justify-center gap-y-7">
+					<button
+						type="button"
+						className="quiz_button bg-orange-700 text-white px-7 py-2 rounded-full cursor-pointer"
+					>
+						Selectionner la difficulté
+					</button>
 					<button
 						type="button"
 						className="quiz_button bg-orange-700 text-white px-7 py-2 rounded-full cursor-pointer"
 						onClick={() => setStartQuiz(true)}
 					>
 						Commencer le quiz !
+					</button>
+					<button
+						type="button"
+						className="quiz_button bg-orange-700 text-white px-7 py-2 rounded-full cursor-pointer"
+					>
+						Récapitulatif de mes scores
 					</button>
 				</div>
 			)}
