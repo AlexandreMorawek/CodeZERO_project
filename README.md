@@ -1,9 +1,3 @@
 # CodeZero
 
-## Mode Desktop
-
-![alt text](image.png)
-
-## Mode Mobile
-
-![alt text](image-1.png)
+![CodeZEROwireframe](https://github.com/user-attachments/assets/387e3365-c8f2-4671-aed8-e4fad99d379f)
