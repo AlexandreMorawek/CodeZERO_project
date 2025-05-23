@@ -2,6 +2,7 @@ import { useState } from "react";
 import data from "../data/questions.json";
 import animated from "./../data/animated.json"; // import du json pour les images
 import Carte from "../Components/Carte";
+import Description from "./Description/description";
 
 function QuestionList() {
 	const [startQuiz, setStartQuiz] = useState(false);
@@ -21,6 +22,8 @@ function QuestionList() {
 	return (
 		<>
 			{!startQuiz && (
+                <>
+                <Description />
 				<div className="button1 flex justify-center items-center h-[39vh]">
 					<button
 						type="button"
@@ -30,9 +33,10 @@ function QuestionList() {
 						Commencer le quiz !
 					</button>
 				</div>
+                </>
 			)}
 			{startQuiz && (
-				<div className="questionCard">
+				<div className="p-[12rem]">
 					<Carte
 						key={data[currentQuestion].id}
 						question={data[currentQuestion].question}
@@ -46,7 +50,7 @@ function QuestionList() {
 						imageUrl={imageUrl} // passe l’image à Carte
 					/>
 				</div>
-			)};
+			)}
             {quizFinished && (
                 <div className="text-white text-center p-[2rem]">
                     Quiz terminé ! Merci d'avoir participé.
