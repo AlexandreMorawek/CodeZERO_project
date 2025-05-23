@@ -53,30 +53,14 @@ function Carte({
 					</h2>
 					<section className="bg-white shadow-2xl flex-col rounded-br-lg rounded-bl-lg">
 						<div className=" text-secondary py-4 text-center md:grid md:grid-cols-2">
-							<p
-								className="py-5 mx-7 md:my-3 font-semibold cursor-pointer flex justify-center items-center"
-								onClick={() => handleSelect(answer1)}
-							>
-								{answer1}
-							</p>
-							<p
-								className="py-5 mx-7 md:my-3 font-semibold cursor-pointer flex justify-center items-center"
-								onClick={() => handleSelect(answer2)}
-							>
-								{answer2}
-							</p>
-							<p
-								className="py-5 mx-7 md:my-3 font-semibold cursor-pointer flex justify-center items-center"
-								onClick={() => handleSelect(answer3)}
-							>
-								{answer3}
-							</p>
-							<p
-								className="py-5 mx-7 md:my-3 font-semibold cursor-pointer flex justify-center items-center"
-								onClick={() => handleSelect(answer4)}
-							>
-								{answer4}
-							</p>
+							<p className={`py-5 mx-7 md:my-3 font-semibold cursor-pointer flex justify-center items-center rounded-lg
+								${selectedAnswer === answer1 ? 'border-2 border-blue-500' : 'border border-transparent'}`} onClick={() => handleSelect(answer1)}>{answer1}</p>
+							<p className={`py-5 mx-7 md:my-3 font-semibold cursor-pointer flex justify-center items-center rounded-lg
+								${selectedAnswer === answer2 ? 'border-2 border-blue-500' : 'border border-transparent'}`} onClick={() => handleSelect(answer2)}>{answer2}</p>
+							<p className={`py-5 mx-7 md:my-3 font-semibold cursor-pointer flex justify-center items-center rounded-lg
+								${selectedAnswer === answer3 ? 'border-2 border-blue-500' : 'border border-transparent'}`} onClick={() => handleSelect(answer3)}>{answer3}</p>
+							<p className={`py-5 mx-7 md:my-3 font-semibold cursor-pointer flex justify-center items-center rounded-lg
+								${selectedAnswer === answer4 ? 'border-2 border-blue-500' : 'border border-transparent'}`} onClick={() => handleSelect(answer4)}>{answer4}</p>
 						</div>
 						<div className="flex justify-center">
 							<button

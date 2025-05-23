@@ -16,9 +16,7 @@ function QuestionList() {
 			alert("Quiz terminé");
 		}
 	};
-
 	const imageUrl = animated.loading[currentQuestion]?.image || ""; // sélection de l'image
-
 	return (
 		<>
 			{!startQuiz && (
