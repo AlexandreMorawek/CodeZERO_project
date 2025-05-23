@@ -6,6 +6,7 @@ import Carte from "../Components/Carte";
 function QuestionList() {
 	const [startQuiz, setStartQuiz] = useState(false);
 	const [currentQuestion, setCurrentQuestion] = useState(0);
+    const [quizFinished, setQuizFinished] = useState(false)
 
 	const handleNextQuestion = () => {
 		if (currentQuestion < data.length - 1) {
@@ -13,7 +14,7 @@ function QuestionList() {
 		} else {
 			setStartQuiz(false);
 			setCurrentQuestion(0);
-			alert("Quiz terminé");
+			setQuizFinished(true);
 		}
 	};
 	const imageUrl = animated.loading[currentQuestion]?.image || ""; // sélection de l'image
@@ -45,7 +46,12 @@ function QuestionList() {
 						imageUrl={imageUrl} // passe l’image à Carte
 					/>
 				</div>
-			)}
+			)};
+            {quizFinished && (
+                <div className="text-white text-center p-[2rem]">
+                    Quiz terminé ! Merci d'avoir participé.
+                </div>
+            )}
 		</>
 	);
 }
